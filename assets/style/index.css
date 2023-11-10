@@ -1,0 +1,59 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/hero-banner.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: rgb(255, 210, 196);
+}
+
+header {
+    height: 60px;
+    
+}
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+}
+
+/* header img {
+    height: 50px;
+    width: 50px;
+} */
+
+
+
+/* .nav-items {
+    display: grid;
+    text-decoration: none;
+
+} */
+
+.hero-banner {
+    border: solid 1.5px #1f1e2b; 
+    height: 550px;
+    width: min(100% - 10px, 1080px);
+    align-self: center;
+    margin-bottom: 75px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 25px;
+}
+  
+p {
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+} 
+
+
+footer {
+    height: 60px;
+}
