@@ -5,7 +5,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    background-color: #ffd2c4;
+    background-color: #fbdfd1;
     color: #1f1e2b;
 }
 
@@ -19,18 +19,6 @@ header {
     margin-inline: auto;
 }
 
-/* header img {
-    height: 50px;
-    width: 50px;
-} */
-
-
-
-/* .nav-items {
-    display: grid;
-    text-decoration: none;
-
-} */
 
 .hero-banner {
     border: solid 1.5px #1f1e2b; 
@@ -62,7 +50,57 @@ h2 {
 p {
     font-size: 20px;
     font-weight: 300;
+    margin-top: 25px;
 }
+
+p + p {
+    margin-top: 25px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: solid 1px #1f1e2b;
+    margin-bottom: 45px;
+    box-shadow: 5px 7px #d8ceca;
+}
+
+.about-me {
+    width: 40%;
+    text-align: left;
+    background-color: #fbdfd1;
+    color: #1f1e2b;
+    padding: 20px
+}
+
+.gallery {
+    width: 60%;
+    background-color: #1f1e2b;
+    display: flex;
+    flex-direction: column;
+    padding: 55px;
+    gap: 20px;
+}
+
+.gallery .one, .gallery .five {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.gallery .four {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50px;
+}
+
+.one, .four, .five {
+    width: 90%;
+    height: 200px;
+}
+
+
 
 .contact {
     display: flex;
@@ -71,13 +109,14 @@ p {
     gap: 20px;
     border: solid 1px #1f1e2b;
     margin-bottom: 45px;
+    box-shadow: 5px 7px #d8ceca;
 }
 
 .text {
     width: 70%;
     text-align: left;
     background-color: #1f1e2b;
-    color: #ffd2c4;
+    color: #fbdfd1;
     padding: 20px
 }
 
