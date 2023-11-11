@@ -9,6 +9,98 @@ body {
     color: #1f1e2b;
 }
 
+.dark-mode {
+    background-color: #1f1e2b;
+    color: #fbdfd1;
+
+    .hero-banner {
+        border: solid 1.5px #fbdfd1;
+    }
+
+    .about {
+        border: solid 1.5px #fbdfd1;
+    }
+
+    #about-me {
+        background-color: #1f1e2b;
+        color: #fbdfd1;
+    }
+    
+    .gallery {
+        background-color: #fbdfd1;
+    }
+    
+    #contact {
+        border: solid 1px #fbdfd1;
+        box-shadow: 7px 7px #d8ceca;
+    }
+    
+    .text {
+        background-color: #fbdfd1;
+        color: #1f1e2b;
+    }
+    
+    li i {
+        color: #fbdfd1;
+    }
+    
+    li i:hover {
+        cursor: pointer;
+        color: #d8ceca;
+    }
+    
+    .resume {
+        background-color: #fbdfd1;
+        color: #1f1e2b;
+        box-shadow: 7px 7px #d8ceca;
+    }
+    /* Animation for Nav */
+    
+    .btn {
+        border: 1px solid #1f1e2b;
+      }
+      
+      .btn::before, .btn::after {
+        background: #1f1e2b;
+      }
+      
+      .btn:hover::before {
+        background: #1f1e2b;
+      }
+      
+      .btn:hover::after {
+        background: #1f1e2b;
+      }
+      
+      .btn:hover {
+        background: #1f1e2b;
+      }
+    
+      /* Animation for button */
+    
+      .bttn {
+        border: 1px solid #1f1e2b;
+        background-color: #fbdfd1;
+        color: #1f1e2b;
+      }
+      
+      .bttn::before, .bttn::after {
+        background: #fbdfd1;
+      }
+
+      .bttn:hover::before {
+        background: #fbdfd1;
+      }
+      
+      .bttn:hover::after {
+        background: #fbdfd1;
+      }
+      
+      .bttn:hover {
+        background: #1f1e2b;
+      }
+}
+
 header {
     height: 60px;
     line-height: 60px;
@@ -16,6 +108,10 @@ header {
 
 nav {
     text-decoration: none;
+}
+
+.button:hover {
+    cursor: pointer;
 }
 
 .container {
