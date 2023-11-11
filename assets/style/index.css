@@ -67,7 +67,7 @@ p + p {
     box-shadow: 5px 7px #d8ceca;
 }
 
-.about-me {
+#about-me {
     width: 40%;
     text-align: left;
     background-color: #fbdfd1;
@@ -102,7 +102,7 @@ p + p {
 
 
 
-.contact {
+#contact {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,6 +110,7 @@ p + p {
     border: solid 1px #1f1e2b;
     margin-bottom: 45px;
     box-shadow: 5px 7px #d8ceca;
+    padding-right: 20px;
 }
 
 .text {
@@ -117,7 +118,8 @@ p + p {
     text-align: left;
     background-color: #1f1e2b;
     color: #fbdfd1;
-    padding: 20px
+    padding: 20px;
+    padding-bottom: 30px;
 }
 
 .socials {
@@ -127,6 +129,8 @@ p + p {
 
 ul {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 li {
@@ -134,8 +138,8 @@ li {
 }
 
 li i {
-    height: 20px;
-    width: 20px;
+    font-size: 30px;
+    color: #201e31;
 }
 
 footer {
