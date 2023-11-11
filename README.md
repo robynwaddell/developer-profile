@@ -1,3 +1,3 @@
 # developer-profile
 web page for a portfolio
-click [here]() to visit the page
+click [here](https://robynwaddell.github.io/developer-profile/) to visit the page
